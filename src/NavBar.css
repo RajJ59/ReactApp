@@ -1,0 +1,33 @@
+.Nav{
+    background-color: #b99999;
+    display: flex;
+}
+
+#btn{
+    margin-left: auto;
+    margin-right: 25px;
+    height: 55px;
+    width: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+    font-size: 19px;
+    color: rgb(0, 6, 41);
+    background-color: rgb(149, 231, 149);
+    cursor: pointer;
+}
+
+#btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 4px  #6e4141;
+
+}
+
+#btn:active{
+    transform: translateY(2px);
+}
+
+#heading{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
